@@ -33,10 +33,10 @@ Successfully created a new micro
         "http_auth": "disabled"
 }
 
-```
+
 ![image](https://user-images.githubusercontent.com/18412583/187964804-8c6d2440-a947-449c-b381-70bd0fb0666d.png)
 
-
+```
 PS D:\CNTT\Python\SourceCode\automate_emails> deta visor enable
 Successfully enabled visor mode
 PS D:\CNTT\Python\SourceCode\automate_emails> deta update -e ".env"
