@@ -18,3 +18,12 @@ split_string = a_string.split("-", 1) //Split into "ab" and "cd"
 substring = split_string[0]
 
 print(substring)
+
+# Convert number to VNĐ
+def add_commas(instr):
+    out = [instr[0]]
+    for i in range(1, len(instr)):
+        if (len(instr) - i) % 3 == 0:
+            out.append(',')
+        out.append(instr[i])
+    return ''.join(out)
