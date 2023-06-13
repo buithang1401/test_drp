@@ -20,6 +20,7 @@ substring = split_string[0]
 print(substring)
 
 # Convert number to VNĐ
+```
 def add_commas(instr):
     out = [instr[0]]
     for i in range(1, len(instr)):
@@ -27,3 +28,4 @@ def add_commas(instr):
             out.append(',')
         out.append(instr[i])
     return ''.join(out)
+```
